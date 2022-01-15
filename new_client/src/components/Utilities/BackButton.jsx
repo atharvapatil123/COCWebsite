@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function BackButton({ link }) {
   return (
-    <div style={{ margin: "10px" }}>
+    <div style={{ margin: "10px", marginLeft: "50px" }}>
       <span>
         <Link to={link} style={{ color: "black" }}>
           <ArrowBackIcon fontSize="large" /> Go Back
